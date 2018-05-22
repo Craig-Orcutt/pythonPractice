@@ -25,3 +25,12 @@ def printPurchases(purchase, stock):
 
 printPurchases(purchases, stocks)
 
+def totalStockValue (purchase, stock):
+  for key,name in stock.items():
+    for comps in purchase:
+      if comps[0] == comps[0]:
+        total = ' ${}'.format(comps[1]*comps[3])
+      if comps[0] == key:
+        newDict = {key + total}
+    print(newDict)
+totalStockValue(purchases, stocks)
